@@ -6,7 +6,7 @@
 [![Build images (DockerHub)](https://github.com/zabbix/zabbix-docker/actions/workflows/images_build.yml/badge.svg?branch=6.4&event=push)](https://github.com/zabbix/zabbix-docker/actions/workflows/images_build.yml)
 [![Build images (DockerHub, Windows)](https://github.com/zabbix/zabbix-docker/actions/workflows/images_build_windows.yml/badge.svg?branch=6.4&event=push)](https://github.com/zabbix/zabbix-docker/actions/workflows/images_build_windows.yml)
 
-# Modified by ahmed elhadidi by collecting from multiple open source repos, Thanks to everyone who's open source code was used here.
+### Modified by ahmed elhadidi by collecting from multiple open source repos, Thanks to everyone who's open source code was used here.
 # What is Zabbix?
 
 Zabbix is an enterprise-class open source distributed monitoring solution.
