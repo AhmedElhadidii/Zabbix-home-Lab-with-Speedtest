@@ -15,7 +15,7 @@ Zabbix is software that monitors numerous parameters of a network and the health
 
 For more information and related downloads for Zabbix components, please visit https://hub.docker.com/u/zabbix/ and https://zabbix.com
 
-# this docker-compose comes equipped with the official ookla speedtest package installed on the service named speedtest with a corn job to run every 5 mins.
+## This docker-compose comes equipped with the official ookla speedtest package installed on the service named speedtest with a corn job to run every 5 mins and a zabbix agent ready.
 
 
 ## Usage
