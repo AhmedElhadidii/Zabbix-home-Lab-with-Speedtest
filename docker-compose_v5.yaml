@@ -43,6 +43,10 @@ services:
       file: compose_zabbix_components.yaml
       service: web-nginx-pgsql
     image: "${ZABBIX_WEB_NGINX_PGSQL_IMAGE}:${ZABBIX_UBUNTU_IMAGE_TAG}${ZABBIX_IMAGE_TAG_POSTFIX}"
+    volumes:
+      - "./webconf:/local/conf/"
+      - "./webconf:/usr/share/zabbix/local/conf/"
+
     depends_on:
       - postgres-server
     labels:
